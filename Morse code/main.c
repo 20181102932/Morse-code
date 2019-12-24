@@ -6,7 +6,7 @@ void setup() {
 int i=3;
 void loop() {
     // put your main code here, to run repeatedly:
-    String message = "b";
+    String message = "sos,help me,please.";
     int n = 0;
     n = message.length();
     int i=0;
@@ -16,7 +16,7 @@ void loop() {
     for(i=0;i<n;i++)
     {
         a = message.charAt(i);
-        if(a == 'a')
+        if(a == 'a'&& a == 'A')
         {
             digitalWrite(13,HIGH);
             delay(200);
@@ -26,7 +26,7 @@ void loop() {
             delay(600);
             
         }
-        if(a == 'b')
+        if(a == 'b'&& a == 'B')
         {
             digitalWrite(13,HIGH);
             delay(600);
@@ -43,7 +43,7 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(200);
         }
-        if(a == 'c')
+        if(a == 'c'&& a == 'C')
         {
             digitalWrite(13,HIGH);
             delay(600);
@@ -60,7 +60,7 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(200);
         }
-        if(a == 'd')
+        if(a == 'd'&& a == 'D')
         {
             digitalWrite(13,HIGH);
             delay(600);
@@ -73,211 +73,12 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(200);
         }
-        if(a == 'e')
+        if(a == 'e'&& a == 'E')
         {
             digitalWrite(13,HIGH);
             delay(200);
         }
-        if(a == 'f')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'g')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'h')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'i')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'j')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-        }
-        if(a == 'k')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-        }
-        if(a == 'l')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'm')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-        }
-        if(a == 'n')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'o')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-        }
-        if(a == 'p')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'q')
-        {
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-        }
-        if(a == 'r')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(600);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 's')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-            digitalWrite(13,LOW);
-            delay(200);
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 't')
-        {
-            digitalWrite(13,HIGH);
-            delay(200);
-        }
-        if(a == 'u')
+        if(a == 'f'&& a == 'F')
         {
             digitalWrite(13,HIGH);
             delay(200);
@@ -289,8 +90,25 @@ void loop() {
             delay(200);
             digitalWrite(13,HIGH);
             delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
         }
-        if(a == 'v')
+        if(a == 'g'&& a == 'G')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'h'&& a == 'H')
         {
             digitalWrite(13,HIGH);
             delay(200);
@@ -305,9 +123,191 @@ void loop() {
             digitalWrite(13,LOW);
             delay(200);
             digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'i'&& a == 'I')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'j'&& a == 'J')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
             delay(600);
         }
-        if(a == 'w')
+        if(a == 'k'&& a == 'K')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'l'&& a == 'L')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'm'&& a == 'M')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'n'&& a == 'N')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'o'&& a == 'O')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'p'&& a == 'P')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'q'&& a == 'Q')
+        {
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'r'&& a == 'R')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 's'&& a == 'S')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 't'&& a == 'T')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+        }
+        if(a == 'u'&& a == 'U')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'v'&& a == 'V')
+        {
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(200);
+            digitalWrite(13,LOW);
+            delay(200);
+            digitalWrite(13,HIGH);
+            delay(600);
+        }
+        if(a == 'w'&& a == 'W')
         {
             digitalWrite(13,HIGH);
             delay(200);
@@ -320,7 +320,7 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(600);
         }
-        if(a == 'x')
+        if(a == 'x'&& a == 'X')
         {
             digitalWrite(13,HIGH);
             delay(600);
@@ -337,7 +337,7 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(600);
         }
-        if(a == 'y')
+        if(a == 'y'&& a == 'Y')
         {
             digitalWrite(13,HIGH);
             delay(600);
@@ -354,7 +354,7 @@ void loop() {
             digitalWrite(13,HIGH);
             delay(600);
         }
-        if(a == 'z')
+        if(a == 'z'&& a == 'Z')
         {
             digitalWrite(13,HIGH);
             delay(600);
